@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>REGISTIRATION</h2>
+
+<form method = "POST">
+{% csrf_token %}
+  <label for="username">username:</label><br>
+  <input type="text" name="username"><br>
+  <label for="gmail">gmail:</label><br>
+  <input type="text" name="gmail"><br><br>
+  <label for="password">password:</label><br>
+  <input type="password" name="password"><br><br>
+  <label for="confrmpassword">confrmpassword:</label><br>
+  <input type="password" name="confrmpassword"><br><br>
+  
+
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+</body>
+</html>
